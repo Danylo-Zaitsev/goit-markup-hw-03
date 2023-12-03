@@ -5,6 +5,35 @@ address {
 
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+/* Клас для обнулення базових властивостей списків (ul) */
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+/* Клас для обнулення базових властивостей у посилань */
+a {
+    text-decoration: none;
+}
+
+/* Властивості для коректного відображення картинок */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 button {
     cursor: pointer;
 }
@@ -12,7 +41,26 @@ button {
 /* ================ СКИДАННЯ ================   */
 
 
+.container{
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
 /* ================ ХЕДЕР ================ */
+
+.page-navigation{
+    display: flex;
+    
+}
+
+.menu{
+    display: flex;
+    column-gap: 40px;
+}
+
 .logo-span{
     color: #2E2F42;
 }
