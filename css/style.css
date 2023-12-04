@@ -221,7 +221,7 @@ ul a {
 
 .tech_ingenuity {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
 
 .title_section_two{
@@ -231,6 +231,7 @@ ul a {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 
 }
 
