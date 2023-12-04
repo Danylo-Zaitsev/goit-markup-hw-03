@@ -93,7 +93,7 @@ body {
 
 .menu{
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 
 .logo-span{
@@ -145,6 +145,10 @@ ul a {
     letter-spacing: 0.32px;
     padding-top: 24px;
     padding-bottom: 24px;
+}
+
+.header{
+    border-bottom: 1px solid #e7e9fc
 }
 
 .address {
