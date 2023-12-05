@@ -336,9 +336,7 @@ ul a {
     flex-wrap: wrap;
 }
 
-.portfolio_img{
-    margin-bottom: 32px;
-}
+
 
 
 .portfolio_title{
@@ -349,7 +347,7 @@ ul a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    margin-left: 16px;
+
 }
 
 .portfolio_text {
@@ -359,8 +357,7 @@ ul a {
     font-weight: 400;
     line-height: 150%;
     letter-spacing: 0.32px;
-    margin-bottom: 32px;
-    margin-left: 16px;
+
 }
 
 .portfolio_mane_list{
