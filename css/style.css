@@ -338,6 +338,13 @@ ul a {
 
 .portfolio_img{
     margin-bottom: 32px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.name_taxt{
+    padding: 32px 16px;
+
 }
 
 .structure{
