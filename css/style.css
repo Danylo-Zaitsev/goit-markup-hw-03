@@ -364,7 +364,8 @@ ul a {
 }
 
 .portfolio_mane_list{
-    width: calc((100%-48px) /3 );
+    width: 360px;
+    border: 1px solid #e7e9fc;
 }
 
 .card_portfollio{
