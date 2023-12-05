@@ -338,14 +338,8 @@ ul a {
 
 .portfolio_img{
     margin-bottom: 32px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
 }
 
-.name_taxt{
-    padding: 32px 16px;
-
-}
 
 .structure{
     color: #2E2F42;
@@ -375,12 +369,17 @@ ul a {
     background: var(--WHITE, #FFF);
 }
 
-.card_item{
-    width: 360px;
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
+.card_portfollio{
     border-top: none;
-    background: var(--WHITE, #FFF);
+    border: 1px solid #e7e9fc;
+    display: flex;
+    padding: 32px 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+
 }
 
 /* ================СЕКЦІЯ 4================ */
