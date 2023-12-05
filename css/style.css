@@ -366,6 +366,7 @@ ul a {
 .portfolio_mane_list{
     width: 360px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .container_mane_list{
