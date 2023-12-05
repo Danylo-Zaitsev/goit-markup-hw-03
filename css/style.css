@@ -367,10 +367,17 @@ ul a {
     width: calc((100%-48px) /3 );
 }
 
-.container_mane_list{
+.card_portfollio{
     border-top: none;
     border: 1px solid #e7e9fc;
+    display: flex;
     padding: 32px 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+
 }
 
 /* ================СЕКЦІЯ 4================ */
